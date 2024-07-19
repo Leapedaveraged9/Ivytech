@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch JavaFX Application",
+            "request": "launch",
+            "mainClass": "BatchUpdateExample",
+            "vmArgs": "--module-path lib --add-modules javafx.controls,javafx.fxml",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
