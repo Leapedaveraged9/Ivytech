@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "tomcat",
+            "name": "Tomcat Server",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "serverName": "Tomcat Server",
+            "configFile": "conf/server.xml",
+            "path": "/",
+            "hostname": "localhost",
+            "port": 8080,
+            "sourcePath": "${workspaceFolder}",
+            "projectName": "myJSPQuizProject"
+        }
+    ]
+}
